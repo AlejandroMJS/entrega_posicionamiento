@@ -14,12 +14,64 @@ body {
   background-color: #000000;
   color: #9ad79b;
 }
-footer {
-  background-color: white;
-  color: black;
-  font-weight: bold;
+header {
+  border: #75a375 dotted;
+  position: fixed;
+  padding: 7px;
+  margin-bottom: 100px;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+main {
+  border: #75a375 dotted;
+  width: 100%;
+  margin-top: 70px;
+  max-height: 100px;
   padding: 10px;
-  position: absolute;
+}
+
+.features {
+  position: relative;
+  border: #75a375 dotted;
+  top: 190px;
+  width: 100%;
+  padding-left: 42%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-height: 280px;
+}
+.features h2 {
+  padding-left: 40px;
+}
+
+aside {
+  position: relative;
+  top: 30px;
+  left: 90%;
+  border: #75a375 dotted;
+  max-width: 170px;
+  margin-top: 4px;
+  padding-top: 15px;
+  padding-left: 30px;
+  height: 165px;
+}
+.symbol {
+  padding-left: 115px;
+}
+.details {
+  max-width: 100px;
+  margin-left: 100px;
+}
+footer {
+  color: #75a375;
+  font-weight: bold;
+  padding: 0.7%;
+  padding-left: 760px;
+  border: #75a375 dotted;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  margin-bottom: 0;
 }
